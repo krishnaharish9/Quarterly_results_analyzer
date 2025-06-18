@@ -46,16 +46,23 @@ Quarterly_Results_Analyzer/
 git clone https://github.com/krishnaharish9/Quarterly_results_analyzer.git
 cd Quarterly_results_analyzer
 
+### 2. Creating and activating environment
+
+
 python -m venv venv
 venv\Scripts\activate       # On Windows
 # source venv/bin/activate  # On macOS/Linux
 
+### 3. Installing requirements
 
 pip install -r requirements.txt
 
+
+### 4. Run the application
+
 streamlit run app.py
 
- How It Works (RAG Overview)
+### 5. How It Works (RAG Overview)
 Preprocessing:
 
 Extracts text from PDFs, images, and tables
@@ -76,7 +83,7 @@ Retrieves relevant chunks using hybrid search
 
 Combines them into a prompt for FLAN-T5 LLM to generate a response
 
-🧩 Future Enhancements
+### 6. Future Enhancements
 ⏳ Multi-document support
 
 📊 Charts & metric extraction
@@ -85,7 +92,7 @@ Combines them into a prompt for FLAN-T5 LLM to generate a response
 
 ☁️ Fully deployable cloud version via Render/Streamlit Cloud
 
-🧑‍💻 Author
+### 7. 🧑‍💻 Author
 Harish Krishna
 
 • https://www.linkedin.com/in/harish-krishna-bhyravajyosula-8b35201b/
