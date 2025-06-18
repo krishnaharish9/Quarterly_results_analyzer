@@ -1,0 +1,25 @@
+# Core RAG and Retrieval
+langchain
+chromadb
+sentence-transformers
+tiktoken
+
+# File Handling & Extraction
+pdfplumber
+PyMuPDF
+PyPDF2
+camelot-py[cv]
+pytesseract
+Pillow
+
+# Audio Transcription
+openai-whisper
+
+# Hybrid Retrieval
+rank_bm25
+
+# Logging/Progress
+tqdm
+rich
+
+python-dotenv
